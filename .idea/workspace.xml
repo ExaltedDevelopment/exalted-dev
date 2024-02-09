@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad523090-408e-462b-8dd5-8df4943d753c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.xatarc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/server/db/dbConnect.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/server/db/xata.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/routes/+page.server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +52,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/lib/server/db" />
       <recent name="$PROJECT_DIR$/src/lib/shadcn" />
     </key>
   </component>
@@ -59,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707200687220</updated>
       <workItem from="1707200688261" duration="16403000" />
-      <workItem from="1707360040358" duration="6498000" />
+      <workItem from="1707360040358" duration="21766000" />
     </task>
     <servers />
   </component>

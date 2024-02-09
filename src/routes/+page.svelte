@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    import type {ImageRecord} from "$lib/server/db/xata";
+    import type {JSONData} from "@xata.io/client";
+
+    interface PageData {
+        data: JSONData<ImageRecord>[]
+    }
+    export let data: PageData
+    // const pageData: PageData['data'] = data.data
+    $: pageData = data.data
+</script>
+
+{#each pageData as img}
+    <img src="{img.image?.signedUrl}" alt="Image">
+    <p>{img?.id}</p>
+{/each}

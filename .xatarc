@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://Jacob-LaFlash-s-workspace-b2240h.us-east-1.xata.sh/db/exalted-dev",
+  "codegen": {
+    "output": "src/lib/server/db/xata.ts"
+  }
+}

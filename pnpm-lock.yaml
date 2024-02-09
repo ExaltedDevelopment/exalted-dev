@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  '@xata.io/client':
+    specifier: ^0.29.0
+    version: 0.29.0(typescript@5.3.3)
   clsx:
     specifier: ^2.1.0
     version: 2.1.0
@@ -608,6 +611,14 @@ packages:
       loupe: 2.3.7
       pretty-format: 29.7.0
     dev: true
+
+  /@xata.io/client@0.29.0(typescript@5.3.3):
+    resolution: {integrity: sha512-bTDcKXcpqOVIs44AkpplM11+AtnTZEM+42vYRmMqpzxoFC9h+oJRA11pMyO155GkPg7a3fi6FA602LbGivuvVg==}
+    peerDependencies:
+      typescript: '>=4.5'
+    dependencies:
+      typescript: 5.3.3
+    dev: false
 
   /acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
@@ -2007,7 +2018,6 @@ packages:
     resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: true
 
   /ufo@1.4.0:
     resolution: {integrity: sha512-Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==}
